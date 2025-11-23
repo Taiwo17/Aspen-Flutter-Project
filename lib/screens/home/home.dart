@@ -1,6 +1,6 @@
 import 'package:aspen/commons/styles/button_styles.dart';
 import 'package:aspen/commons/styles/text_styles.dart';
-import 'package:aspen/screens/explore/explore.dart';
+import 'package:aspen/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -61,7 +61,7 @@ class HomePage extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => ExploreScreen(),
+                              builder: (context) => MainScreen(),
                             ),
                           );
                         },

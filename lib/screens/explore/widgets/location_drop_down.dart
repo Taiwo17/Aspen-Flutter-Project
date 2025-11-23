@@ -22,7 +22,8 @@ class LocationDropDown extends StatefulWidget {
 class _LocationDropDownState extends State<LocationDropDown> {
   @override
   Widget build(BuildContext context) {
-    return Expanded(
+    return Material(
+      color: Colors.transparent,
       child: Row(
         children: [
           SvgPicture.asset('assets/icons/location.svg'),
